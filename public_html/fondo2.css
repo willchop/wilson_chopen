@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 feb. 2021, 9:11:23
+    Author     : USUARIO
+*/
+
+body {
+            text-align: center;
+            background: url(IMAG_LICORES/fondo3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: scroll;
+            font-family: serif;
+            font-weight: bold;
+             width: 100%;
+            height: 300px;
+            
+                
+}

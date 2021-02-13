@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+         <title>JACKWILLS"LICORES"</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="fondo2.css">
+         <script type="text/javascript" src="historial.js"></script>
+        
+         
+    <style>
+     
+        .bloque{
+            margin-left: 10px;
+            float: left;
+        }
+        .agregar{
+            border-radius: 10px;
+            background-color: cornflowerblue;
+            font-family: Arial, Helvetica, sans-serif;
+            border: solid 2px black;
+        }
+        #contenedorTabla{
+            margin: 350px;
+            width: 600px;
+            margin-top: 30px;
+        }
+        table{
+            width: 100%;
+            background-color:skyblue;
+            text-align: left;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 10px;
+  
+        }
+        thead{
+            background-color:crimson;
+            border-bottom: solid 5px red;
+        }
+        #titulo{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: auto;
+        }
+      </style>
+       
+    </head>
+    <body>
+        <h1>"JACK WILLS" LICORES </h1>
+        <nav id="menu">
+            
+                <h1><a href="index.html" >TIENDA</a></h1>
+                <h1><a href="carrito_de_compras.html" >CARRITO DE COMPRAS</a></h1>
+                <h1> <a href="historial.html">HISTORIAL</a></h1>
+            
+        </nav>
+        <h2 id="titulo">COMPRAR PRODUCTO</h2>
+    <div id="contenedorTabla">
+        <table id="tabla">
+            <thead>
+               <tr>
+                   <th>Descripcion</th><th>precio</th><th>Subtotal</th>
+               </tr>
+            </thead>
+          <tbody id="Mitabla">
+
+          </tbody>
+        </table>
+        <h4 id="Total">Total: 00</h4>
+        <button class="agregar" id="ventas">COMPRAR<img src="IMAG_LICORES/cash-icon.png" width="75" height="60"></button> 
+        
+        
+    </div>
+        
+    </body>
+</html>

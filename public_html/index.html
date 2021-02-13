@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>JACKWILLS"LICORES"</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="archivos.js"></script>
+        <link rel="stylesheet" href="fondo.css">
+        
+        <style>
+     
+      .bloque{
+          margin-left: 10px;
+          float: left;
+           border: solid 10px blue;
+      }
+      .agregar{
+          border-radius: 10px;
+          
+          font-family: cursive,monospace,fantasy;
+          border: solid 25px chartreuse;
+      }
+      #contenedorTabla{
+          margin: 350px;
+          width: 600px;
+          margin-top: 30px;
+      }
+      table{
+          width: 100%;
+          background-color:skyblue;
+          text-align: left;
+          border-collapse: collapse;
+      }
+      th, td{
+          padding: 10px;
+
+      }
+      thead{
+          background-color:crimson;
+          border-bottom: solid 5px red;
+      }
+    </style>
+    
+    </head>
+    <body>
+        <h1>"JACK WILLS" LICORES </h1>
+        <nav id="menu">
+            <ul>
+                <h1><a href="index.html" >TIENDA</a></h1>
+                <h1><a href="carrito_de_compras.html" >CARRITO</a></h1>
+                <h1> <a href="historial.html">HISTORIAL</a></h1>
+            </ul>
+        </nav>
+    <div class="bloque">
+     
+      
+        <img src="IMAG_LICORES/Ginebra.png" width="300px" border-radius="5px">
+        <h2>GINEBRA</h2>
+        <h2 class="Ginebra">Q:100</h2>
+        <button class="agregar" id="Ginebra">COMPRAR PRODUCTO<img src="IMAG_LICORES/carro peq.jpg" width="75" height="60"> </button>
+    </div>
+
+    <div class="bloque">
+        <img src="IMAG_LICORES/Whiskey.png" width="300px">
+        <h2>WHISKY</h2>
+        <h2 class="Whiskey">Q:250</h2>
+        <button class="agregar" id="Whiskey">COMPRAR PRODUCTO<img src="IMAG_LICORES/carro peq.jpg" width="75" height="60"> </button>
+    </div>
+
+    <div class="bloque">
+        <img src="IMAG_LICORES/botran.jpg" width="300px" height="300px">
+        <h2>RON_BOTRAN</h2>
+        <h2 class="Botran">Q:150</h2>
+        <button class="agregar" id="Botran">COMPRAR PRODUCTO<img src="IMAG_LICORES/carro peq.jpg" width="75" height="60"> </button>
+    </div>
+    <div class="bloque">
+        <img src="IMAG_LICORES/jack daniels.jpg"  width="300px">
+        <h2>JACK DANIELS</h2>
+        <h2 class="Jack_daniels">Q:281</h2>
+        <button class="agregar" id="Jack_daniels">COMPRAR PRODUCTO<img src="IMAG_LICORES/carro peq.jpg" width="75" height="60"> </button>
+    </div>
+    <div class="bloque">
+        <img src="IMAG_LICORES/litro quetzaltca.jpg" width="300px">
+        <h2>QUETZALTECA ORIGINAL</h2>
+        <h2 class="Quetzalteca_lit">Q:55 </h2>
+        <button class="agregar" id="Quetzalteca_lit">COMPRAR PRODUCTO<img src="IMAG_LICORES/carro peq.jpg" width="75" height="60"> </button>
+    </div>
+    <div class="bloque">
+        <img src="IMAG_LICORES/mor quetzalteca.png" width="300px">
+        <h2>QUETZALTECA MORA</h2>
+        <h2 class="Mora">Q:60</h2>
+        <button class="agregar" id="Mora">COMPRAR PRODUCTO<img src="IMAG_LICORES/carro peq.jpg" width="75" height="60"> </button>
+    </div>
+    <div class="bloque">
+        <img src="IMAG_LICORES/xl botran.jpg" width="300px" height="300px">
+        <h2>XL BOTRAN</h2>
+        <h2 class="Xl">Q:150</h2>
+        <button class="agregar" id="Xl">COMPRAR PRODUCTO<img src="IMAG_LICORES/carro peq.jpg" width="75" height="60"> </button>
+    </div>
+    <div class="bloque">
+        <img src="IMAG_LICORES/whsiky something special.jpg" width="300px" height="300px">
+        <h2>SOMETHING SPECIAL</h2>
+        <h2 class="Special">Q:150</h2>
+        <button class="agregar" id="Special">COMPRAR PRODUCTO<img src="IMAG_LICORES/carro peq.jpg" width="75" height="60"> </button>
+    </div>
+        <div id="contenedorTabla">
+        <table id="tabla">
+            <thead>
+               <tr>
+                   <th>Descripcion</th><th>precio</th><th>Subtotal</th>
+               </tr>
+            </thead>
+          <tbody id="Mitabla">
+
+          </tbody>
+        </table>
+        <h4 id="Total">Total: 00</h4>
+        <button id="ventas">Vender</button>     
+    </div>
+        
+        
+         
+
+    
+        
+    </body>
+</html>
